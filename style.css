@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&display=swap');
+
+
+
+:root {
+    --primary-ff: 'Nunito', sans-serif;
+}
+
+* {
+    font-family: var(--primary-ff);
+}
+
+
+
+.img-fluid:hover {
+    box-shadow: rgb(0, 100, 0) 0px 22px 70px 4px;
+}
+
+.menu-buttons:hover,
+.menu-links:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navbar-search {
+    position: relative;
+}
+
+.search-bar {
+    padding-right: 40px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.jumbotron {
+    height: 350px;
+    background-image: linear-gradient(to left bottom, #051937, #004770, #007983, #00a965, #98ce1d);
+    background-image: url('https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-icons {
+    font-size: 1.5rem;
+    color: #013220;
+    text-shadow: 0 0 10px #013220;
+}
+
+.bi:hover {
+    color: lightgreen;
+}
+
+.content-left {
+    width: 25%;
+}
+
+.content-right {
+    width: 75%;
+}
+
+#profile-info,
+#profile-about {
+    border-bottom-left-radius: 3rem;
+}
+
+.content-left {
+    width: 25%;
+}
+
+.content-right {
+    width: 75%;
+}
+
+
+@media screen and (min-width:992px) and (max-width: 1024px) {
+    .content-left {
+        width: 25%;
+    }
+
+    .content-right {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .content-left {
+        width: 25%;
+    }
+
+    .content-right {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:150px) and (max-width: 576px) {
+    .content-left {
+        width: 50%;
+    }
+
+    .content-right {
+        width: 50%;
+    }
+
+}
